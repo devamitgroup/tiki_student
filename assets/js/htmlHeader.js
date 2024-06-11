@@ -1,4 +1,5 @@
-const logo = "../images/logo-tiki.png";
+const logo = "/assets/images/logo-tiki.png";
+const support = "/assets/images/logo-support.png";
 
 const addHeader = () => {
   const mainHeader = document.querySelector(`#header`);
@@ -6,7 +7,7 @@ const addHeader = () => {
       <div class="box-contact d-flex justify-content-center align-items-center">
         <div class="d-flex flex-column gap-2 justify-content-center">
           <img
-            src="${logo}"
+            src="${support}"
             alt=""
             width="32px"
             height="32px"
